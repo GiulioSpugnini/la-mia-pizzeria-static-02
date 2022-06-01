@@ -1,0 +1,33 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+img{
+   max-weight: 150px;
+   max-height: 150px;
+}
+section{
+    text-align:center;
+}
+.card{
+   width: calc(100%/3);
+}
+p{
+    text-align:left;
+    padding-top: 10px;
+}
+
